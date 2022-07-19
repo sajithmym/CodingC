@@ -1,0 +1,17 @@
+
+
+	 - - This is student 1 - -
+
+Name is - Mohamed Sajith
+Age is - 20
+Grade is - Ct 1st Year
+Date of Birth is  6/12/1999. 
+**********************************************************************
+
+	 - - This is student 2 - -
+
+Name is - SajiTh
+Age is - 20
+Grade is - Balangoda
+Date of Birth is  6/12/1999. 
+**********************************************************************

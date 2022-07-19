@@ -6,7 +6,7 @@ int main()
     //sprintf(a,"%d", j);
     //printf("\n str is %s", a);
     
-    sscanf(a,"%04d",&j);
+    sscanf(a,"%.4d",&j);
 	   printf("\nInteger value is: %d",j);
 	
     return 0;

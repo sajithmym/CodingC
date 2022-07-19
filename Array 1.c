@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 int main()
-{   char i[]= {'s', 'a', 'j', 'i', 't', 'h' } ;
+{   int L;
+	char i[]= {'s', 'a', 'j', 'i', 't', 'h' } ;
 
     printf("Hello %s", i );
     
@@ -11,5 +12,7 @@ int main()
     printf (" %c", i[3]);
     printf (" %c", i[4]);
     printf (" %c", i[5]);
+    scanf("%d",&L);
     return 0;
+    
 }

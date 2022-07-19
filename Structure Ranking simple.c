@@ -9,8 +9,9 @@ struct d{
     int t[100];    //Total
 }s; 
 
-int main(){   
-    int st[100];
+int main(){  
+	int n; 
+    int st[100],omg;
     char o[22];
     int x=-99*5;
     
@@ -41,10 +42,10 @@ int main(){
         cp+=1;
         printf("\nEnter c - clear screen q-end..\n    Enter : ");
         scanf("%s",o);
-        if (!strcmp(o,"c")) 
-            clrscr();
-        if (!strcmp(o,"q")) 
+        if (!strcmp(o,"q")) {
+        	
             break;
+        }
     } 
     
     int i=0;
@@ -63,13 +64,14 @@ int main(){
         x=-99*4;
     } 
     printf("\n- - - - - - - - - - - - - - - - - - - - - -\n");
-    for(int n=0;n!=cp;n++){
-        printf("\n\t»»»»»»»»» ");
+    for(n=0;n!=cp;n++){
+        printf("\n\t*********** ");
         printf("\n   %d place : %s \n     Average : %.2f",n+1,s.n[mx[n]],s.a[mx[n]]);
         printf("\n       Total is : %d",s.t[mx[n]]);
-        printf("\n\t»»»»»»»»» ");
+        printf("\n\t*********** ");
         printf("\n");
     } 
     printf("\n- - - - - - - - - - - - - - - - - - - - - - \n");
+    scanf("%d",&omg);
     return 0;
 }
