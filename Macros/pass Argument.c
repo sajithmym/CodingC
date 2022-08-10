@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-void main(int argc,char *argv[]){
-	printf("\nNumber of Argument : %d \n", argc);
-	for (int i=0;i<argc;++i){
-		printf("Argument %d is %s\n",i,argv[i] );
-	}
+void main(int counting,char *The_List[]){
+
+	printf("\n\n \t ---> Number of Argument : ~ %d ~ <---\n\n", counting);
+
+	for (int i=0; i<counting; ++i)
+		printf("\t\t\t ---> Argument %d is %s  \n",i,The_List[i]);
 }
