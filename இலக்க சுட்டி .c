@@ -14,7 +14,7 @@ int main()
             strncat(j,&f,1); //str+char
             sscanf(j,"%d",&ok); //str to int
             sum+=ok;
-    } 
+    }
     printf("\n\tvalue is %d",sum);
     return 0;
 }
