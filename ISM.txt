@@ -1,2 +1,0 @@
-eof - end key cont+D
-%[^\n] - use to scan name

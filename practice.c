@@ -2,7 +2,9 @@
 
 int r;float a;
 
-int in();float pro();void x();
+int in();
+float pro();
+void x();
 
 int main() {	
 

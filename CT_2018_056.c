@@ -26,9 +26,8 @@ int main(){
      if (!strcmp(id,"SV156") || !strcmp(id,"sv156") ) {
         discount+=2;
         valid=10;
-        
       } 
-        // Pharmacy Complite... 
+        // Pharmacy Complete... 
     
      if (!strcmp(id,"SV105") || !strcmp(id,"sv105") ) {
         valid=10;
