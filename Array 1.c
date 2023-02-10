@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main(){
-
 	char i[]= {'s', 'a', 'j', 'i', 't', 'h' };
 
     printf("Hello %s", "! How are you..?" );
@@ -11,5 +10,5 @@ int main(){
     for (int j=0; j != count ; ++ j)
         printf("\n\ti[%d]-> %c",j,i[j]);
 
-    return 0; 
+    return 0;
 }
